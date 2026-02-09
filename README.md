@@ -16,6 +16,12 @@ npm run dev
 
 默认端口：8897
 
+## 如何从模板生成一个新项目
+
+1. 打开模板仓库页面 → 点 “使用此模板” → 创建新仓库
+2. 在新仓库点绿色按钮 “Code” → 复制仓库地址 → 本地 `git clone`
+3. 进入项目目录执行：`npm install` → `npm run dev`
+
 ## 一键变成你的新项目（推荐流程）
 
 1. 在 GitHub 创建一个新仓库（未来会把它设置为 Template repository）
