@@ -1,0 +1,81 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-topbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-24);
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.app-content {
+  width: min(1440px, calc(100% - 48px));
+  margin: var(--space-24) auto;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.panel-hd {
+  padding: 18px var(--space-24);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+
+.panel-bd {
+  padding: var(--space-24);
+}
+
+.subtle {
+  color: var(--muted);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+.filters .el-input,
+.filters .el-select {
+  width: 220px;
+}
+
+.filters .el-date-editor {
+  width: 260px;
+}
+
+.table-ops {
+  display: flex;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
